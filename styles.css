@@ -1,0 +1,16 @@
+ body {
+     background-image: linear-gradient(to right, dodgerblue, slateblue);
+     font-family: Calibri;
+     text-align: center;
+     color:aliceblue;
+     
+}
+#clockDisplayPoint{
+    font-size: 15vw;
+    text-align: center;
+    border: 5px ridge aliceblue;
+    padding:2% 1%;
+            }
+p{
+  font-size: 5vw;  
+}

@@ -18,6 +18,7 @@ function tellTime(){
             s = (s < 10)? "0" + s : s;
             var time = h + ":" + m + ":" + s + " " + session;
             document.getElementById("clockDisplayPoint").innerText = time;
+            document.getElementById("clockDisplayPoint").textContent = time;
             setTimeout(tellTime, 1000);
         }
             tellTime();
